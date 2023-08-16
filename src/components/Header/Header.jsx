@@ -5,7 +5,7 @@ import { IoMdNotificationsOutline } from 'react-icons/io';
 const Header = () => {
     return (
         <div>
-            <div className="navber w-full">
+            <div className="navber w-full p-3">
                 <div className="flex items-center w-fit ml-auto">
                     <span><IoMdNotificationsOutline size={25} /></span>
                     <div className='border-2 border-slate-200 rounded-lg flex items-center ml-3'>
