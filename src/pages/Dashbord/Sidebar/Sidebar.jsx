@@ -15,6 +15,9 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex items-center mt-auto'>
+                <Link className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent w-[163px] h-[47px] flex items-center justify-center text-slate-800'>Log Out</Link>
+            </div>
         </div>
     );
 };
