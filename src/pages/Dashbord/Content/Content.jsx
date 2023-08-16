@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../../components/Header/Header';
+import About from '../../../components/Profile/About';
 import Details from '../../../components/Profile/Details';
 import Upload from '../../../components/Profile/Upload';
 const Content = () => {
@@ -14,6 +15,7 @@ const Content = () => {
                     <div className="">
                         <Upload />
                         <Details />
+                        <About />
                     </div>
                     <div className="">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, fugit officia! Exercitationem numquam dolorum eligendi, nam facere voluptas eos officia laborum ab. Itaque, laborum odit molestiae velit libero in nobis quidem nulla? Soluta ducimus debitis explicabo mollitia, ut enim, esse id voluptate dolore rem facilis! In voluptatibus officia, debitis accusantium maxime nihil voluptates natus, consectetur, temporibus id facere saepe dicta mollitia ex quidem optio. Laudantium sapiente dolore consectetur recusandae quaerat repudiandae eum doloribus voluptatibus? Dolorem blanditiis tenetur inventore sit et voluptatem veritatis dignissimos consequatur ratione asperiores laboriosam praesentium provident, repellendus beatae aut, nam explicabo? Dolores quod distinctio sint necessitatibus animi.</p>

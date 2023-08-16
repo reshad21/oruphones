@@ -5,7 +5,7 @@ const Details = () => {
     return (
         <div>
 
-            <div className="p-5 border-2 border-slate-300 rounded-md">
+            <div className="p-5 border-2 border-slate-300 rounded-md mb-5">
 
                 <div className="flex justify-between items-end mb-5">
                     <div className="flex flex-col">
