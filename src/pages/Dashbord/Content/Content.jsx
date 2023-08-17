@@ -4,6 +4,7 @@ import Header from '../../../components/Header/Header';
 import About from '../../../components/Profile/About';
 import Certification from '../../../components/Profile/Certification';
 import Details from '../../../components/Profile/Details';
+import Experience from '../../../components/Profile/Experience';
 import Skills from '../../../components/Profile/Skills';
 import Upload from '../../../components/Profile/Upload';
 const Content = () => {
@@ -24,6 +25,7 @@ const Content = () => {
                     <div className="">
                         <ProfessionalDetails />
                         <Certification />
+                        <Experience />
                     </div>
                 </div>
             </div>
