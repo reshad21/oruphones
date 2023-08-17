@@ -15,8 +15,8 @@ const Experience = () => {
                         <span className='text-slate-900 font-medium text-base'>Full-time</span>
                     </div>
                     <div className="flex gap-9 items-center">
-                        <span className='text-slate-600'>Oruphones</span>
-                        <span className='text-slate-600'>--Full Stack Developer</span>
+                        <span className='text-slate-600 text-sm'>Oruphones</span>
+                        <span className='text-slate-600 text-sm'>--Full Stack Developer</span>
                     </div>
                 </div>
                 <div className="col-span-3">
@@ -30,8 +30,8 @@ const Experience = () => {
                         <span className='text-slate-900 font-medium text-base'>Full-time</span>
                     </div>
                     <div className="flex gap-9 items-center">
-                        <span className='text-slate-600'>Oruphones</span>
-                        <span className='text-slate-600'>--Full Stack Developer</span>
+                        <span className='text-slate-600 text-sm'>Oruphones</span>
+                        <span className='text-slate-600 text-sm'>--Full Stack Developer</span>
                     </div>
                 </div>
                 <div className="col-span-3">
