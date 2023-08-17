@@ -20,7 +20,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="col-span-3">
-                    <img src="../../../public/images/image 13.png" alt="" className='w-90px' />
+                    <img src="../../../public/images/image 13.png" alt="" className='w-[90px]' />
                 </div>
             </div>
             <div className="pl-7 py-4 border-2 border-slate-300 rounded-3xl grid grid-cols-12 gap-2 items-center">
@@ -35,7 +35,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="col-span-3">
-                    <img src="../../../public/images/image 13.png" alt="" className='w-90px' />
+                    <img src="../../../public/images/image 13.png" alt="" className='w-[90px]' />
                 </div>
             </div>
         </div>
