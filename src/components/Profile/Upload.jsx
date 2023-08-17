@@ -8,7 +8,7 @@ const Upload = () => {
                     <img src="../../../../public/images/Ellipse 255.png" alt="" />
                 </div>
                 <div className="">
-                    <label htmlFor="imgs" className='px-8 py-1 bg-[#F0EFFA] rounded-full cursor-pointer'>Upload Photo</label>
+                    <label htmlFor="imgs" className='px-8 py-1 bg-[#F0EFFA] rounded-full cursor-pointer text-sm'>Upload Photo</label>
                     <input type="file" id='imgs' className='hidden' />
                 </div>
             </div>
