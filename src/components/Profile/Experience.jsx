@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Experience = () => {
     return (
         <div>
-            <div className="flex justify-between my-6">
+            <div className="flex justify-between my-4">
                 <h3 className='text-slate-900 font-medium text-base'>Experience</h3>
                 <Link className='bg-[#F0EFFA] text-[12.67px] px-5 py-2 rounded-2xl text-[#222]'>Edit</Link>
             </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Upload = () => {
     return (
         <div>
-            <div className="flex justify-between items-center h-fit mb-5">
+            <div className="flex justify-between items-center h-fit mb-12">
                 <div className="">
                     <img src="../../../../public/images/Ellipse 255.png" alt="" />
                 </div>
