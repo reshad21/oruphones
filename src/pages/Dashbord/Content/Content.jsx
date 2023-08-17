@@ -2,6 +2,7 @@ import React from 'react';
 import ProfessionalDetails from '../../../components/Activity/ProfessionalDetails';
 import Header from '../../../components/Header/Header';
 import About from '../../../components/Profile/About';
+import Certification from '../../../components/Profile/Certification';
 import Details from '../../../components/Profile/Details';
 import Skills from '../../../components/Profile/Skills';
 import Upload from '../../../components/Profile/Upload';
@@ -22,6 +23,7 @@ const Content = () => {
                     </div>
                     <div className="">
                         <ProfessionalDetails />
+                        <Certification />
                     </div>
                 </div>
             </div>
