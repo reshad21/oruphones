@@ -11,7 +11,7 @@ const Sidebar = () => {
                         <BiChevronRight /><Link className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent w-[163px] h-[47px] flex items-center justify-center text-slate-800'>My Profile</Link>
                     </div>
                     <div className='flex items-center'>
-                        <BiChevronRight /><Link className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent w-[163px] h-[47px] flex items-center justify-center text-slate-800'>My Connections</Link>
+                        <BiChevronRight /><Link to='/connections' className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent w-[163px] h-[47px] flex items-center justify-center text-slate-800'>My Connections</Link>
                     </div>
                 </div>
             </div>
