@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ConnectionCard = ({ data }) => {
-    console.log(data);
-    const { name, title, company, img } = data || {};
+    // console.log(data?.btnText);
+    const { name, title, company, img, btnText } = data || {};
     return (
         <div className='p-2 border-2 border-slate-400 rounded-lg'>
             <div className='flex justify-between w-full items-center'>
@@ -12,7 +12,7 @@ const ConnectionCard = ({ data }) => {
                         <p>{title}</p>
                         <span className=''>@ {company}</span>
                     </div>
-                    <button className='bg-[#BAB6EB] rounded-3xl p-0 px-2 text-sm'>Remove Connection</button>
+                    <button className='bg-[#BAB6EB] rounded-3xl p-0 px-2 text-sm'>{btnText}</button>
                 </div>
                 <div className="w-[50%]">
                     <img src={img} alt="" className='w-full' />
