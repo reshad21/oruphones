@@ -9,7 +9,7 @@ const Connections = () => {
             name: "Vishnu Swaroop",
             title: "Full Stack Developer",
             company: "Oruphones",
-            img: "../../../../public/images/Ellipse 255.png",
+            img: "../../../../public/images/Ellipse 255 (1).png",
             btnText: "Remove Connection"
         },
         {
@@ -17,7 +17,7 @@ const Connections = () => {
             name: "Vishnu Swaroop",
             title: "Full Stack Developer",
             company: "Oruphones",
-            img: "../../../../public/images/Ellipse 255.png",
+            img: "../../../../public/images/Ellipse 255 (1).png",
             btnText: "Remove Connection"
         },
     ]
@@ -28,7 +28,7 @@ const Connections = () => {
             name: "Vishnu Swaroop",
             title: "Full Stack Developer",
             company: "Oruphones",
-            img: "../../../../public/images/Ellipse 255.png",
+            img: "../../../../public/images/Ellipse 255 (1).png",
             btnText: "Connection"
         }
     ]
