@@ -15,7 +15,7 @@ const Header = () => {
                             <img src="/public/images/image 11.png" alt="" />
                             <div className="flex flex-col justify-center gap-4">
                                 <span className='text-xs leading-[0]'>welcome back,</span>
-                                <p className=' text-base leading-[0]'>vishnu shoroup</p>
+                                <p className=' text-base leading-[0]'>vishnu Swaroop</p>
                             </div>
                         </div>
 
