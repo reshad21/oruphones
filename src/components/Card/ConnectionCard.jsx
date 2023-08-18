@@ -1,10 +1,23 @@
 import React from 'react';
 
-const ConnectionCard = () => {
+const ConnectionCard = ({ data }) => {
+    console.log(data);
+    const { name, title, company, img } = data || {};
     return (
         <div className='p-2 border-2 border-slate-400 rounded-lg'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem nostrum totam odio corrupti exercitationem atque provident eius, illum commodi? Dolorem facilis suscipit, harum consectetur neque iure in impedit accusantium!</p>
-            <button>Remove</button>
+            <div className='flex justify-between w-full items-center'>
+                <div className="">
+                    <h3 className='text-slate-900 font-semibold'>{name}</h3>
+                    <div className="my-4 text-[13px]">
+                        <p>{title}</p>
+                        <span className=''>@ {company}</span>
+                    </div>
+                    <button className='bg-[#BAB6EB] rounded-3xl p-0 px-2 text-sm'>Remove Connection</button>
+                </div>
+                <div className="w-[50%]">
+                    <img src={img} alt="" className='w-full' />
+                </div>
+            </div>
         </div>
     );
 };

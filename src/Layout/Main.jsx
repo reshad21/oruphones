@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className='grid grid-cols-12 gap-2'>
             <Sidebar />
-            <div className='col-span-10'>
+            <div className='col-span-12 md:col-span-10 lg:col-span-10'>
                 <Outlet />
             </div>
         </div>
