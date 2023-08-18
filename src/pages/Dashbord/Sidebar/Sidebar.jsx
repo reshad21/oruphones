@@ -9,7 +9,7 @@ const Sidebar = () => {
                 <div className="flex flex-col ">
                     <div className='flex items-center mb-2'>
                         <BiChevronRight />
-                        <Link className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent px-3 py-2 flex items-center justify-center text-slate-800 text-sm md:text-base'>My Profile</Link>
+                        <Link to="/" className='hover:border-2 hover:rounded-lg hover:border-slate-400 bg-transparent px-3 py-2 flex items-center justify-center text-slate-800 text-sm md:text-base'>My Profile</Link>
                     </div>
                     <div className='flex items-center'>
                         <BiChevronRight />
