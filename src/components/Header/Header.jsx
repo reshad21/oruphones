@@ -30,16 +30,17 @@ const Header = () => {
                             <Link onClick={() => setToggle(!toggle)}><img src="../../../public/images/menu.png" alt="" /></Link>
                             <Link><img src="../../../public/images/image 13.png" alt="" /></Link>
                         </div>
-                        <div className="flex items-center gap-3">
-                            <span><IoMdNotificationsOutline size={25} /></span>
+                        <div className="flex items-center gap-1">
+                            <span className='mt-2'><IoMdNotificationsOutline size={25} /></span>
                             <Link><img src="../../../public/images/image 11.png" alt="" /></Link>
                         </div>
                     </div>
                     {
                         toggle &&
-                        <div className="px-3 py-5 absolute top-8 left-0 w-[200px] border-2 border-slate-400 rounded-xl z-10 bg-slate-700 flex flex-col justify-center items-center gap-2">
-                            <Link to="/" className='py-2 px-2 border-2 bg-slate-100 w-full rounded-md text-slate-900'>My Profile</Link>
-                            <Link to="/connections" className='py-3 px-2 border-2 bg-slate-100 w-full rounded-md text-slate-900'>My Connections</Link>
+                        <div className="px-3 py-5 absolute top-8 left-0 w-[200px] border-2 border-slate-900 rounded-xl z-10 bg-slate-700 flex flex-col justify-center items-center gap-2">
+                            <Link to="/" className='py-1 px-2 border-2 bg-white w-full rounded-md text-slate-900 font-semibold'>My Profile</Link>
+                            <Link to="/connections" className='py-1 px-2 border-2 bg-white w-full rounded-md text-slate-900 font-semibold'>My Connections</Link>
+                            <Link to="" className='py-1 px-2 border-2 bg-white w-full rounded-md text-slate-900 font-semibold'>Log Out</Link>
                         </div>
                     }
                 </div>

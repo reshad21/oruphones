@@ -40,7 +40,7 @@ const Connections = () => {
                     <div className="bg-[#1E2875] text-white rounded-md p-5 px-4 mb-9">
                         <p>My Connections</p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 md:gap-4 lg:gap-9">
                         {
                             (connectionData.length > 0) &&
                             connectionData.map((item) => <ConnectionCard data={item} key={item._id}></ConnectionCard>)
